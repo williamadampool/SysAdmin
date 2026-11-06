@@ -1,8 +1,8 @@
 Set-TimeZone -Name 'US Eastern Standard Time' -PassThr
-Start-Process  "C:\Users\Administrator\Documents\Post install\Duo\install64bit.bat" -ArgumentList "/S" -PassThru
-start-process -Wait "C:\Users\Administrator\Documents\Post install\Tanium\SetupClient.exe" -ArgumentList "/S" -PassThru
-start-process -Wait "C:\Users\Administrator\Documents\Post install\BGInfo\Setup _NonDell.bat" -ArgumentList "/S" -PassThru
-start-process -Wait "C:\Users\Administrator\Documents\Post install\cortex.msi"-ArgumentList "/S" -PassThru
+Start-Process  "Path" -ArgumentList "/S" -PassThru
+start-process -Wait "Path" -ArgumentList "/S" -PassThru
+start-process -Wait "Path" -ArgumentList "/S" -PassThru
+start-process -Wait "Path"-ArgumentList "/S" -PassThru
 
 # Define variables
 $Domain   = "<INSERT DATA>"
