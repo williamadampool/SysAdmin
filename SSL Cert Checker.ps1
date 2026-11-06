@@ -1,4 +1,4 @@
-$uri = "<INSERT DATA>-dispatch.octaveoncall.com"
+$uri = "<INSERT URI"
 $port = 443
 
 $client = New-Object System.Net.Sockets.TcpClient
